@@ -1,0 +1,300 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,span,input,button{
+	font-family: 'Playfair Display', serif;
+
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*header section css*/
+.header{
+	width: 100%;
+	display: flow-root;
+}
+.navber{
+	width: 100%;
+	float: left; 
+	padding: 25px 0
+}
+.logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.manu-item{
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+.manu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 100px;
+}
+.manu-item ul li a{
+	text-transform: uppercase;
+	color: black;
+}
+.manu-item ul li a:hover{
+	color: red;
+	transform: scale(0.6);
+	transition:0.5s;
+}
+/*banner section css*/
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.banner-cont{
+	padding: 60px;
+}
+.catagory{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.tittel{
+    color: black;
+    padding: 30px 0px;
+}
+.dest{
+	color: black;
+	margin: -8px 0px;
+}
+.dest-comment{
+	text-transform: uppercase;
+	color: #b4ad9e;
+	margin-top: 52px;
+}
+/*post-1 gallery section css*/
+.posts{
+	width: 100%;
+	display: flow-root;
+}
+.gallery{
+	padding: 60px;
+	display: flow-root;
+}
+.post{
+	width: 100%;
+	float:left;
+}
+
+.post-left{
+	width: 50%;
+	float: left;
+}
+
+/*post-1 left-1*/
+.post-left-1-content{
+	padding: 20px;
+}
+
+.post-left-catagory{
+	padding-top: 30px;
+	text-transform: uppercase;
+
+}
+.post-left-tittle{
+	padding-top: 20px;
+	transition:1s;
+
+}
+.post-left-tittle:hover{
+	color: black;
+	transform: scale(1.5);
+	transition:1s;
+}
+.post-left-doct{
+	padding-top: 25px;
+
+}
+
+/*post right-1*/
+.post-right-1-content{
+	padding: 20px;
+
+}
+.post-right{
+	width: 50%;
+	float: left;
+}
+
+.post-right-catagory{
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+.post-right-tittle{
+	padding-top: 20px;
+	transition:1s;
+}
+.post-right-tittle:hover{
+	color: red;
+	transform: scale(1.5);
+	transition:1s;
+}
+
+.post-right-doct{
+	padding-top: 25px;
+
+}
+/*post-2 gallery section css*/
+/*post-2 left*/
+.posts-2{
+	width: 100%;
+	display: flow-root;
+}
+.gallery-2{
+	padding: 60px;
+}
+.post-2{
+	width: 100%;
+	float:left;
+}
+
+.post-left-2{
+	width: 50%;
+	float: left;
+}
+/*post-2 left-1*/
+.post-left-1-content{
+	padding: 20px;
+}
+
+.post-2-left-catagory{
+	padding-top: 30px;
+	text-transform: uppercase;
+
+}
+.post-2-left-tittle{
+	padding-top: 20px;
+	transition:1s;
+
+}
+.post-2-left-tittle:hover{
+	color: black;
+	transform: scale(1.5);
+	transition:1s;
+}
+.post-2-left-doct{
+	padding-top: 25px;
+
+}
+
+/*post-2- right*/
+.post-2-right-1-content{
+	padding: 20px;
+
+}
+.post-2-right{
+	width: 50%;
+	float: left;
+}
+
+.post-2-right-catagory{
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+.post-2-right-tittle{
+	padding-top: 20px;
+	transition:1s;
+}
+.post-2-right-tittle:hover{
+	color: red;
+	transform: scale(1.5);
+	transition:1s;
+}
+
+.post-2-right-doct{
+	padding-top: 25px;
+}
+
+/*subcription form css*/
+.subcription{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	text-align: center;
+	    padding: 77px 0px;
+}
+.subcription h1{
+	    margin-bottom: 55px;
+}
+.form input{
+	    padding: 15px 20px;
+    width: 337px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+.form input:focus{
+      outline: none;
+}
+.form input::placeholder{
+	font-size: 25px;
+}
+form{
+	position: relative;
+}
+form i{
+	position: absolute;
+	top: 15px;
+    right: 387px;
+}
+.load-more{
+	text-align: center;
+}
+.load-more button{
+	    padding: 20px 40px;
+    background: transparent;
+    border: 1px solid black;
+    font-size: 20px;
+}
+/*footer secation css*/
+.footer-option{
+	    width: 100%;
+    display: flow-root;
+    background: #2b27270f;
+    margin-top: 50px;
+
+}
+.footer{
+	width: 100%;
+	float: left;
+	    padding: 60px;
+}
+.footer-left{
+	width: 60%;
+	float:left;
+	text-align: left;
+}
+.footer-left ul li{
+	list-style: none;
+	display: inline-block;
+	 margin-left: 30px;
+	
+}
+
+.footer-right{
+	width: 27%;
+	float:left;
+	text-align: right;
+}
+.footer-right ul li{
+	        list-style: none;
+    display: inline-block;
+    margin-right: 24px;
+   
+}
+.footer-right ul li i{
+	    margin-right: 10px;
+
+}
